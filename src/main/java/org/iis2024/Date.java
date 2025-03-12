@@ -43,6 +43,10 @@ public class Date {
    *
    * @return The year (within the valid range of 1900 to 2050).
    */
+  public void methodAddedByTheOwner (){
+    System.out.println("Method added by the owner");
+  }
+
   public int getYear() {
     return year;
   }
